@@ -2,8 +2,6 @@ import React from 'react';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import imgg1 from '../../../assets/teacher/arabic.jpg'
 import imgg2 from '../../../assets/teacher/mitu.jpg'
-import imgg3 from '../../../assets/teacher/nikita.jpg'
-import imgg4 from '../../../assets/teacher/psychics.jpg'
 import imgg5 from '../../../assets/teacher/siam.jpg'
 
 const Teachers = () => {
