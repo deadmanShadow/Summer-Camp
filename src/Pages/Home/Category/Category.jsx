@@ -15,8 +15,8 @@ const Category = () => {
     return (
         <section>
             <SectionTitle
-            subHeading={"Complete All Courses With Our best Instructors"}
-            heading={"ORDER NOW"}
+            subHeading={"Top Slider Section"}
+            heading={"Complete All Courses With Our best Instructors"}
             ></SectionTitle>
             <Swiper
                 slidesPerView={4}

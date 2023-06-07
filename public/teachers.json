@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "sadhuwguidas546asds649",
+        "name": "Rabbil Hassan",
+        "image": "/src/assets/teacher/psychics.jpg",
+        "edu": "BBA From Dhaka University"
+    },
+    {
+        "_id": "sadhusdaaskdsojasd5644",
+        "name": "Siam Ahmed",
+        "image": "/src/assets/teacher/siam.jpg",
+        "edu": "M.A Arts From Jaghannath University"
+    },
+    {
+        "_id": "sadhuwgudsadssxZxsahud",
+        "name": "Rakibul Islam",
+        "image": "/src/assets/teacher/siam.jpg",
+        "edu": "B.A Drawing From Dhaka University"
+    },
+    {
+        "_id": "sadhuwguidas546asds649",
+        "name": "Raihan Ahmed",
+        "image": "/src/assets/teacher/arabic.jpg",
+        "edu": "Hafez and Mawlana From Malibagh Madrasha"
+    },
+    {
+        "_id": "sadhuwguidas546asds649",
+        "name": "Nikita Mahbub",
+        "image": "/src/assets/teacher/nikita.jpg",
+        "edu": "Fashion Design From Santo-Marium University"
+    },
+    {
+        "_id": "sadhuwguidas546asds649",
+        "name": "Sanzida Mitu",
+        "image": "/src/assets/teacher/mitu.jpg",
+        "edu": "B.A Dance From East West University"
+    }
+]

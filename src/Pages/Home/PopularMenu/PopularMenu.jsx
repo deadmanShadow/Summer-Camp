@@ -12,8 +12,8 @@ const PopularMenu = () => {
     return (
         <section className='mb-12'>
             <SectionTitle
-            heading="From OUR Classes"
-            subHeading="Course Lists"
+            heading="Course Lists"
+            subHeading="Popular Classes Section "
             ></SectionTitle>
             <div className='grid md:grid-cols-2 gap-10'>
                 {
