@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36e4545",
+        "name": "Psychics Education Course With Rabbil Hassan",
+        "seat":"15",
+        "image": "../src/assets/Cat/pexels-freestocksorg-320265.jpg",
+        "category": "psychics",
+        "price": 889
+    },
+    {
+        "_id": "642c155b2c4774f05c36sdxd",
+        "name": "Arts and Craft With Siam Ahmed",
+        "seat":"12",
+        "image": "../src/assets/Cat/pexels-pixabay-159579.jpg",
+        "category": "arts-crafts",
+        "price": 1299
+    },
+    {
+        "_id": "642c155b2c4774f05c36esdwuyigd",
+        "name": "Drawing With Rakibul Islam",
+        "seat":"9",
+        "image": "../src/assets/Cat/pexels-rdne-stock-project-10503437.jpg",
+        "category": "drawing",
+        "price": 799
+    },
+    {
+        "_id": "642c155b2c4774fsdjahbdg",
+        "name": "Completed 30 Para Quran With Raihan",
+        "seat":"17",
+        "image": "../src/assets/Cat/pexels-rdne-stock-project-7249183.jpg",
+        "category": "quran",
+        "price": 1099
+    },
+    {
+        "_id": "642c155b2c4774fssdaasdaswqqqq",
+        "name": "Fashion Learning With Nikita Mahbub",
+        "seat":"13",
+        "image": "../src/assets/Cat/fashion.jpg",
+        "category": "fashion",
+        "price": 1199
+    }, 
+    {
+        "_id": "642c155b2c4774sajdhwqq0145",
+        "name": "Dance Learning With Sanjida Mitu",
+        "seat":"11",
+        "image": "../src/assets/Cat/dance.jpg",
+        "category": "dance",
+        "price": 599
+    } 
+]
