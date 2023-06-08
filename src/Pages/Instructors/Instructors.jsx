@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useMenu from '../../Hooks/useMenu';
+import Card from '../../Components/SectionTitle/Card';
 
 const Instructors = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -23,12 +24,50 @@ const Instructors = () => {
                     <Tab>Fashion</Tab>
                     <Tab>Psychics</Tab>
                 </TabList>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
-                <TabPanel></TabPanel>
+                <TabPanel>
+                    {
+                        quran.map(item => <Card
+                        key={item._id}
+                        item={item}></Card>)
+                    }
+                </TabPanel>
+                <TabPanel>
+                    {
+                        fashion.map(item => <Card
+                        key={item._Id}
+                        item={item}></Card>)
+                    }
+                </TabPanel>
+                <TabPanel>
+                    {
+                        dance.map(item => <Card
+                        key={item._id}
+                        item={item}>
+                        </Card>)
+                    }
+                </TabPanel>
+                <TabPanel>
+                    {
+                        drawing.map(item => <Card
+                        key={item._id}
+                        item={item}>  
+                        </Card>)
+                    }
+                </TabPanel>
+                <TabPanel>
+                    {
+                        artscrafts.map(item => <Card
+                        key={item._id}
+                        item={item}></Card>)
+                    }
+                </TabPanel>
+                <TabPanel>
+                    {
+                        psychics.map(item=> <Card
+                        key={item._id}
+                        item={item}></Card>)
+                    }
+                </TabPanel>
             </Tabs>
         </div>
     );
