@@ -14,7 +14,7 @@ const Login = () => {
                     <div className="text-center lg:text-left">
                         <h1 className="text-4xl font-bold">Please Login</h1>
                     </div>
-                    <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
+                    <div className="card  max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
                                 <label className="label">
