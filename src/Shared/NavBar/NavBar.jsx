@@ -15,17 +15,15 @@ const NavBar = () => {
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">Summer School Camp</a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="ms-16 navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/class'>Classes</Link></li>
                         <li><Link to='/instructors'>Instructors</Link></li>
                         <li><Link>Dashboard</Link></li>
                         <li><Link to='/login'>Login</Link></li>
+                        <li><Link to='/register'>Register</Link></li>
                     </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
                 </div>
             </div>
         </div>
