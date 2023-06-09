@@ -10,7 +10,7 @@ const Instructors = () => {
             <Helmet>
                 <title>Summer | Instructors</title>
             </Helmet>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 mb-8'>
                 <div className="card w-96 glass">
                     <figure><img src={img1} alt="car!" /></figure>
                     <div className="card-body">

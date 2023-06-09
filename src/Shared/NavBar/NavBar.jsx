@@ -21,6 +21,7 @@ const NavBar = () => {
                         <li><Link to='/class'>Classes</Link></li>
                         <li><Link to='/instructors'>Instructors</Link></li>
                         <li><Link>Dashboard</Link></li>
+                        <li><Link to='/login'>Login</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
