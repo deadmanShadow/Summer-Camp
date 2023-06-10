@@ -4,7 +4,7 @@ const useMenu = () => {
     const [menu, setMenu] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/class')
+        fetch('https://summer-camp-server-nine.vercel.app/class')
             .then(res => res.json())
             .then(data => {
                 setMenu(data);
