@@ -1,6 +1,9 @@
 import React from 'react';
 const Card = ({item}) => {
     const { image, name, seat, price } = item;
+    const handleAddToCart = item => {
+        console.log(item);
+    }
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">
@@ -10,7 +13,7 @@ const Card = ({item}) => {
                     <p>Available Seat: {seat}</p>
                     <p>Course Price: ${price}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Add To Cart</button>
+                        <button onClick={()=> handleAddToCart(item)} className="btn btn-primary">Add To Cart</button>
                     </div>
                 </div>
             </div>
