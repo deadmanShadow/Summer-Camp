@@ -75,6 +75,12 @@ const Register = () => {
                                 </label>
                                 <input type="password"  ></input>
                             </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Confirm Password</span>
+                                </label>
+                                <input type="password"  ></input>
+                            </div>
                             <div className="form-control mt-6">
                                 <input className="btn btn-primary" type="submit" value="Sign Up" />
                             </div>
