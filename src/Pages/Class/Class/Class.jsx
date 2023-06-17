@@ -37,7 +37,7 @@ const Class = () => {
         <TabPanel>
           {
             quran.map(item => <Card
-              key={item._id}
+              key={item.id}
               item={item}></Card>)
           }
 
@@ -45,14 +45,14 @@ const Class = () => {
         <TabPanel>
           {
             fashion.map(item => <Card
-              key={item._Id}
+              key={item.Id}
               item={item}></Card>)
           }
         </TabPanel>
         <TabPanel>
           {
             dance.map(item => <Card
-              key={item._id}
+              key={item.id}
               item={item}>
             </Card>)
           }
@@ -60,7 +60,7 @@ const Class = () => {
         <TabPanel>
           {
             drawing.map(item => <Card
-              key={item._id}
+              key={item.id}
               item={item}>
             </Card>)
           }
@@ -68,14 +68,14 @@ const Class = () => {
         <TabPanel>
           {
             artscrafts.map(item => <Card
-              key={item._id}
+              key={item.id}
               item={item}></Card>)
           }
         </TabPanel>
         <TabPanel>
           {
             psychics.map(item => <Card
-              key={item._id}
+              key={item.id}
               item={item}></Card>)
           }
         </TabPanel>
