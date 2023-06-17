@@ -45,7 +45,7 @@ const Class = () => {
         <TabPanel>
           {
             fashion.map(item => <Card
-              key={item.Id}
+              key={item.id}
               item={item}></Card>)
           }
         </TabPanel>
